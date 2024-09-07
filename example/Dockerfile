@@ -1,6 +1,6 @@
 FROM jonarod/tensorflow_lite_alpine
 
-FROM alpine
+FROM alpine:3.20.3
 
 # Our program compiled with Golang
 # From a gcc environment:
